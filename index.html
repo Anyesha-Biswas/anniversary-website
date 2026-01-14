@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 36th Anniversary 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="floating-hearts"></div>
+
+  <!-- Confetti hearts container -->
+  <div id="confetti-container"></div>
+
+  <div class="container">
+    <h1>Happy 36th Anniversary 💕</h1>
+    <h2>Maa & Baba</h2>
+    <!-- Typewriter Message -->
+    <p class="message" id="typewriter"></p>
+
+    <!-- Love Counter -->
+    <div class="love-counter">
+      <h3>💞 Love Timeline</h3>
+      <p>⏳ Together for:</p>
+      <div class="counter-box">
+        <div class="counter-item">
+          <span id="days">0</span>
+          <small>Days</small>
+        </div>
+        <div class="counter-item">
+          <span id="hours">0</span>
+          <small>Hours</small>
+        </div>
+        <div class="counter-item">
+          <span id="minutes">0</span>
+          <small>Minutes</small>
+        </div>
+        <div class="counter-item">
+          <span id="seconds">0</span>
+          <small>Seconds</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slideshow -->
+    <div class="slideshow">
+      <button class="nav-btn left" id="prevBtn">❮</button>
+
+      <img id="slideImage" src="images/photo1.jpg" alt="Anniversary Photos" />
+
+      <button class="nav-btn right" id="nextBtn">❯</button>
+    </div>
+
+    <!-- Dots -->
+    <div class="dots" id="dots"></div>
+
+    <p class="tap-text">📸 Tap the photo to play/pause the romantic song 🎶</p>
+
+    <!-- Surprise Button -->
+    <button class="surprise-btn" id="surpriseBtn">
+      🎁 It's a Surprise 💝
+    </button>
+
+    <!-- Hidden Surprise Link -->
+    <div class="surprise-box" id="surpriseBox">
+      <p>💌 A special video just for you both!</p>
+      <a href="https://drive.google.com/file/d/1K8UjMfPPcNLs_vXFG122w9xAwxivEI18/view?usp=drivesdk" target="_blank" class="video-link">
+  ▶ Click here to watch the video 💕
+</a>
+    </div>
+    <button class="love-letter-btn" id="loveLetterBtn">💌 Open Love Letter</button>
+
+<div class="letter-popup" id="letterPopup">
+  <div class="letter-card">
+    <h3>To the best couple 💕</h3>
+    <p>
+      Maa & Baba, you both are my biggest blessing 🌸<br><br>
+      Thank you for loving each other for 36 years and showing me what true love means 💖<br><br>
+      May your love grow stronger forever 💑✨
+    </p>
+    <button class="close-letter" id="closeLetter">Close 💗</button>
+  </div>
+</div>
+
+    <!-- Audio -->
+    <audio id="romanticSong" src="song/romantic.mp3"></audio>
+    <div class="reasons">
+  <h3 class="reason-title">💝 Reasons I Love You Both</h3>
+
+  <div class="reason-grid">
+    <div class="reason-card">💑 Best Team Ever</div>
+    <div class="reason-card">🌸 Always Supportive</div>
+    <div class="reason-card">😂 Full of Laughter</div>
+    <div class="reason-card">🏡 My Safe Home</div>
+    <div class="reason-card">💖 Pure Love</div>
+    <div class="reason-card">✨ Forever Inspiring</div>
+  </div>
+</div>
+
+
+    <footer>Made with 💖 by Bui , Phachu & Sibasis </footer>
+  </div>
+  <div id="sparkle-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
